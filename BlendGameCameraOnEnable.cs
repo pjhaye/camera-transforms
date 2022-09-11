@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
+#if CAMERA_TRANSFORMS_DOTWEEN
+using DG.Tweening;
+#endif
 
 namespace CameraTransforms
 {
