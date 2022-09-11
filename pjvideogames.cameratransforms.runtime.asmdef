@@ -1,0 +1,14 @@
+{
+    "name": "pjvideogames.cameratransforms.runtime",
+    "rootNamespace": "CameraTransforms",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
