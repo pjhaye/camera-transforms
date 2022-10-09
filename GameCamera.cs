@@ -163,7 +163,7 @@ namespace CameraTransforms
 
                 transform.position = position;
                 transform.rotation = rotation;
-                _camera.fieldOfView = fieldOfView;
+                Camera.fieldOfView = fieldOfView;
             }
             else
             {
@@ -186,7 +186,7 @@ namespace CameraTransforms
 
                 transform.position = position;
                 transform.rotation = rotation;
-                _camera.fieldOfView = fieldOfView;
+                Camera.fieldOfView = fieldOfView;
             }
         }
 #endif
