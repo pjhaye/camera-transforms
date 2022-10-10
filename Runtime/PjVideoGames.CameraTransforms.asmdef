@@ -1,5 +1,5 @@
 {
-    "name": "pjvideogames.cameratransforms.runtime",
+    "name": "PjVideoGames.CameraTransforms",
     "rootNamespace": "CameraTransforms",
     "references": [],
     "includePlatforms": [],
