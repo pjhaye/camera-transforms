@@ -5,8 +5,7 @@ namespace CameraTransforms
 {
     /// <summary>
     /// <see cref="ICameraTransform"/> whose positional values are based on a Unity <see cref="Transform"/>
-    /// </summary>
-    [RequireComponent(typeof(UnityEngine.Camera))]
+    /// </summary>    
     [ExecuteAlways]
     public class CameraTransform : MonoBehaviour, ICameraTransform
     {
@@ -89,6 +88,12 @@ namespace CameraTransforms
         {
 #if UNITY_EDITOR
             var previewCamera = PreviewCamera;
+
+            if (previewCamera == null)
+            {
+                return;
+            }
+            
             previewCamera.fieldOfView = _fieldOfView;
             var previewCameraTransform = previewCamera.transform;
             previewCameraTransform.position = transform.position;
