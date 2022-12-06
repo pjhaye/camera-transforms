@@ -1,8 +1,8 @@
 {
   "name": "com.pjvideogames.cameratransforms",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "displayName": "Camera Transforms",
-  "description": "Implementation of camera movement inspired by that of Unreal's, wherein camera positions exist as a separate object in space that the actual Game Camera chooses to adopt. Requires DoTween and CAMERA_TRANSFORMS_DOTWEEN to be defined for smooth blending ",
+  "description": "Implementation of camera movement inspired by that of Unreal's, wherein camera positions exist as a separate object in space that the actual Game Camera chooses to adopt. Requires DoTween and CAMERA_TRANSFORMS_DOTWEEN to be defined for smooth blending",
   "unity": "2021.1",
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
