@@ -9,7 +9,6 @@ namespace CameraTransforms
     /// <summary>
     /// Blendable camera that takes on the transform of an assigned <see cref="ICameraTransform"/>
     /// </summary>
-    [RequireComponent(typeof(UnityEngine.Camera))]
     public class GameCamera : MonoBehaviour
     {
         private static GameCamera _mainCamera;
@@ -42,7 +41,7 @@ namespace CameraTransforms
             {
                 if (_camera == null)
                 {
-                    _camera = GetComponent<Camera>();
+                    _camera = GetComponentInChildren<Camera>();
                 }
                 
                 return _camera;
